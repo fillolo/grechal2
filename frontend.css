@@ -55,5 +55,13 @@
   text-align: center;
 }
 
+.taplink-dropdown {
+  width: 100%;
+  max-width: 500px;              /* широкая центральная зона */
+  margin-left: auto !important;  /* принудительное центрирование */
+  margin-right: auto !important; /* принудительное центрирование */
+  text-align: center;            /* сам текст по центру */
+}
+
 
 

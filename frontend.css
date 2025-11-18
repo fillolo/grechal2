@@ -22,24 +22,24 @@
 .block-zero-grid .cell,
 .block-zero-container .cell {
   text-align: center;
-}
+
 
 .taplink-dropdown {
   width: 100%;
-  margin: 10px 0;
+  max-width: 400px;
+  margin: 20px auto;      /* центрирование */
   color: #fff;
   font-size: 16px;
-  font-family: sans-serif;
 }
 
 .taplink-dropdown-btn {
   width: 100%;
-  background: #000;
+  background: transparent;
   color: #fff;
   border: none;
   padding: 12px 0;
-  text-align: left;
-  font-size: 18px;
+  text-align: center;      /* текст по центру */
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -48,5 +48,6 @@
   padding: 10px 0;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;      /* выравнивание списка */
 }
 

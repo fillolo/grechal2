@@ -77,6 +77,12 @@
     text-transform: uppercase;
 }
 
+.taplink-dropdown-btn,
+.taplink-dropdown-content div {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;  /* делаем тоньше */
+}
+
 
 
 

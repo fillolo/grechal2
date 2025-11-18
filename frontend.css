@@ -26,28 +26,33 @@
 
 .taplink-dropdown {
   width: 100%;
-  max-width: 400px;
-  margin: 20px auto;      /* центрирование */
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Центрирование по горизонтали */
+  justify-content: center;
+  margin: 20px 0;
   color: #fff;
   font-size: 16px;
 }
 
 .taplink-dropdown-btn {
-  width: 100%;
+  width: auto;           /* Чтобы кнопка подстраивалась */
   background: transparent;
   color: #fff;
   border: none;
-  padding: 12px 0;
-  text-align: center;      /* текст по центру */
+  padding: 12px 20px;
+  text-align: center;
   font-size: 20px;
   cursor: pointer;
 }
 
 .taplink-dropdown-content {
   display: none;
-  padding: 10px 0;
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;      /* выравнивание списка */
+  text-align: center;
 }
+
+
 

@@ -70,6 +70,13 @@
   color: #fff;
   padding: 4px 0;
 }
+.taplink-dropdown-btn,
+.taplink-dropdown-content div {
+    font-family: inherit !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
 
 
 

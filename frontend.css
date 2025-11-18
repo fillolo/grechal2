@@ -64,12 +64,13 @@
 
 /* Каждый элемент списка */
 .taplink-dropdown-content div {
-  font-size: 130%;        /* +30% */
+  font-size: 200%;        /* +30% */
   text-transform: uppercase;
   font-weight: 400;       /* не жирный */
   color: #fff;
   padding: 4px 0;
 }
+
 
 
 

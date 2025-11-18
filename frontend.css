@@ -63,5 +63,12 @@
   text-align: center;            /* сам текст по центру */
 }
 
+.taplink-dropdown,
+.taplink-dropdown * {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 
 

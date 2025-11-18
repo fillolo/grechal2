@@ -24,34 +24,34 @@
   text-align: center;
 .taplink-dropdown {
   width: 100%;
-  max-width: 500px;
-  margin: 20px auto !important;
-  text-align: center;
+  max-width: 350px;         /* ширина блока */
+  margin: 20px auto;        /* по центру */
 }
 
 .taplink-dropdown-btn {
   width: 100%;
   background: transparent;
-  color: #fff;
   border: none;
-  padding: 12px 0;
-  text-align: center;
+  color: inherit;           /* сохраняет стиль сайта */
   font-size: 20px;
+  padding: 12px 0;
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 .taplink-dropdown-content {
   display: none;
+  text-align: center;
   padding: 10px 0;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .taplink-dropdown-content div {
-  text-align: center;
+  margin: 4px 0;
 }
+
+
 
 
 
